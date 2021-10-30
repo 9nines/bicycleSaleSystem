@@ -1,0 +1,27 @@
+{% extends 'dailyfresh/base.html' %}
+{% load static %}
+{% block search_bar %}
+    <div class="search_bar clearfix">
+		<a href="index.html" class="logo fl"><img src="{% static 'images/logo.png' %}"></a>
+		<div class="sub_page_name fl">|&nbsp;&nbsp;&nbsp;&nbsp;{% block user_info %}{% endblock user_info %}</div>
+		<div class="search_con fr">
+            <form method="get" action="/search">
+			<input type="text" class="input_text fl" name="q" placeholder="搜索商品">
+			<input type="submit" class="input_btn fr" name="" value="搜索">
+            </form>
+		</div>
+	</div>
+{% endblock search_bar %}
+{% block body %}
+<div class="main_con clearfix">
+		<div class="left_menu_con clearfix">
+			<h3>用户中心</h3>
+			<ul>
+				<li><a href="{% url 'user:user' %}" {% if page == 'user' %}class="active" {% endif %}>· 个人信息</a></li>
+				<li><a href="{% url 'user:order' 1 %}" {% if page == 'order' %}class="active" {% endif %}>· 全部订单</a></li>
+				<li><a href="{% url 'user:address' %}" {% if page == 'address' %}class="active" {% endif %}>· 收货地址</a></li>
+			</ul>
+		</div>
+{% block center_info %}{% endblock center_info %}
+</div>
+{% endblock body %}

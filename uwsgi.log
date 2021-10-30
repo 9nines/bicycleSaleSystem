@@ -1,0 +1,513 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 11:57:37 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-45-generic #48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.31.24:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41441 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Jul 17 2020, 14:04:10)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0x1c97040
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1c97040 pid: 3648 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3648)
+spawned uWSGI worker 1 (pid: 3650, cores: 2)
+spawned uWSGI worker 2 (pid: 3651, cores: 2)
+spawned uWSGI worker 3 (pid: 3654, cores: 2)
+spawned uWSGI worker 4 (pid: 3655, cores: 2)
+spawned uWSGI http 1 (pid: 3658)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3658)
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 11:59:58 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-45-generic #48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.31.24:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45733 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Jul 17 2020, 14:04:10)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0x20cb070
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x20cb070 pid: 3679 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3679)
+spawned uWSGI worker 1 (pid: 3681, cores: 2)
+spawned uWSGI worker 2 (pid: 3682, cores: 2)
+spawned uWSGI worker 3 (pid: 3685, cores: 2)
+spawned uWSGI worker 4 (pid: 3687, cores: 2)
+spawned uWSGI http 1 (pid: 3688)
+设置缓存
+[pid: 3687|app: 0|req: 1/1] 192.168.31.252 () {38 vars in 821 bytes} [Sat Dec  5 12:00:19 2020] GET / => generated 13624 bytes in 5064 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3687|app: 0|req: 2/2] 192.168.31.252 () {38 vars in 765 bytes} [Sat Dec  5 12:00:25 2020] GET /favicon.ico => generated 85 bytes in 17 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 3687|app: 0|req: 3/3] 192.168.31.252 () {40 vars in 879 bytes} [Sat Dec  5 12:00:31 2020] GET /goods/11 => generated 10434 bytes in 543 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 3687|app: 0|req: 5/4] 192.168.31.252 () {40 vars in 893 bytes} [Sat Dec  5 12:00:57 2020] GET /user/logout => generated 0 bytes in 33 msecs (HTTP/1.1 302) 5 headers in 218 bytes (1 switches on core 1)
+[pid: 3687|app: 0|req: 5/5] 192.168.31.252 () {40 vars in 847 bytes} [Sat Dec  5 12:00:57 2020] GET /user/login => generated 2122 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 3687|app: 0|req: 6/6] 192.168.31.252 () {48 vars in 991 bytes} [Sat Dec  5 12:01:09 2020] POST /user/login => generated 0 bytes in 657 msecs (HTTP/1.1 302) 8 headers in 511 bytes (1 switches on core 1)
+[pid: 3687|app: 0|req: 7/7] 192.168.31.252 () {42 vars in 914 bytes} [Sat Dec  5 12:01:10 2020] GET /index => generated 13624 bytes in 500 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3687|app: 0|req: 8/8] 192.168.31.252 () {40 vars in 878 bytes} [Sat Dec  5 12:01:19 2020] GET /cart/ => generated 11465 bytes in 107 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 1)
+[pid: 3687|app: 0|req: 9/9] 192.168.31.252 () {40 vars in 892 bytes} [Sat Dec  5 12:01:22 2020] GET /user/order/1 => generated 5659 bytes in 154 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 3687|app: 0|req: 10/10] 192.168.31.252 () {40 vars in 885 bytes} [Sat Dec  5 12:01:24 2020] GET /cart/ => generated 11465 bytes in 40 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 1)
+[pid: 3687|app: 0|req: 11/11] 192.168.31.252 () {40 vars in 878 bytes} [Sat Dec  5 12:01:25 2020] GET /user/ => generated 5728 bytes in 181 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 0)
+[pid: 3687|app: 0|req: 12/12] 192.168.31.252 () {40 vars in 892 bytes} [Sat Dec  5 12:01:28 2020] GET /user/order/1 => generated 5659 bytes in 101 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 3687|app: 0|req: 13/13] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 12:01:30 2020] GET /user/address => generated 3402 bytes in 53 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 3688)
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 13:07:14 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-45-generic #48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.31.24:8000 fd 3
+Python version: 3.5.2 (default, Oct  7 2020, 17:19:02)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0x88ff90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x88ff90 pid: 64578 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 64578)
+spawned uWSGI worker 1 (pid: 64580, cores: 2)
+spawned uWSGI worker 2 (pid: 64581, cores: 2)
+spawned uWSGI worker 3 (pid: 64582, cores: 2)
+spawned uWSGI worker 4 (pid: 64583, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 13:07:52 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-45-generic #48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 192.168.31.24:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33819 (port auto-assigned) fd 3
+Python version: 3.5.2 (default, Oct  7 2020, 17:19:02)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0x1a84080
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a84080 pid: 64596 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 64596)
+spawned uWSGI worker 1 (pid: 64598, cores: 2)
+spawned uWSGI worker 2 (pid: 64599, cores: 2)
+spawned uWSGI worker 3 (pid: 64600, cores: 2)
+spawned uWSGI worker 4 (pid: 64601, cores: 2)
+spawned uWSGI http 1 (pid: 64602)
+设置缓存
+[pid: 64601|app: 0|req: 1/1] 192.168.31.252 () {38 vars in 821 bytes} [Sat Dec  5 13:08:00 2020] GET / => generated 13624 bytes in 4697 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 2/2] 192.168.31.252 () {40 vars in 879 bytes} [Sat Dec  5 13:08:09 2020] GET /goods/13 => generated 10418 bytes in 318 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 3/3] 192.168.31.252 () {46 vars in 885 bytes} [Sat Dec  5 13:08:13 2020] POST /cart/add => generated 67 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 64600|app: 0|req: 1/4] 192.168.31.252 () {40 vars in 881 bytes} [Sat Dec  5 13:08:15 2020] GET /cart/ => generated 12204 bytes in 472 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 4/5] 192.168.31.252 () {48 vars in 1031 bytes} [Sat Dec  5 13:08:18 2020] POST /order/place => generated 5358 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64600|app: 0|req: 2/6] 192.168.31.252 () {46 vars in 896 bytes} [Sat Dec  5 13:08:23 2020] POST /order/commit => generated 49 bytes in 184 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 5/7] 192.168.31.252 () {40 vars in 898 bytes} [Sat Dec  5 13:08:26 2020] GET /user/order/1 => generated 5656 bytes in 74 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 6/8] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:28 2020] GET /user/order/2 => generated 5714 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 7/9] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:30 2020] GET /user/order/3 => generated 5711 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 8/10] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:30 2020] GET /user/order/4 => generated 5711 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 9/11] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:31 2020] GET /user/order/5 => generated 5711 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 10/12] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:31 2020] GET /user/order/6 => generated 6140 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 11/13] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:33 2020] GET /user/order/5 => generated 5711 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 12/14] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:35 2020] GET /user/order/4 => generated 5711 bytes in 111 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 13/15] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:35 2020] GET /user/order/3 => generated 5711 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 14/16] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:36 2020] GET /user/order/2 => generated 5714 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 15/17] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:36 2020] GET /user/order/1 => generated 5656 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 16/18] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:38 2020] GET /user/order/2 => generated 5714 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 17/19] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:39 2020] GET /user/order/3 => generated 5711 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 64601|app: 0|req: 18/20] 192.168.31.252 () {40 vars in 899 bytes} [Sat Dec  5 13:08:40 2020] GET /user/order/4 => generated 5711 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 64601|app: 0|req: 19/21] 192.168.31.252 () {46 vars in 891 bytes} [Sat Dec  5 13:08:42 2020] POST /order/pay => generated 795 bytes in 258 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 64602)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 13:32:55 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-126-generic #129~16.04.1-Ubuntu SMP Tue Nov 24 11:22:40 UTC 2020
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7640
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.31.24:8000 fd 3
+Python version: 3.5.2 (default, Oct  7 2020, 17:19:02)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0x18dc050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x18dc050 pid: 3501 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3501)
+spawned uWSGI worker 1 (pid: 3504, cores: 2)
+spawned uWSGI worker 2 (pid: 3505, cores: 2)
+spawned uWSGI worker 3 (pid: 3506, cores: 2)
+spawned uWSGI worker 4 (pid: 3507, cores: 2)
+[pid: 3506|app: 0|req: 1/1] 192.168.31.24 () {40 vars in 747 bytes} [Sat Dec  5 13:36:47 2020] GET /index => generated 13624 bytes in 1951 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3506|app: 0|req: 2/2] 192.168.31.24 () {42 vars in 801 bytes} [Sat Dec  5 13:36:58 2020] GET /user/logout => generated 0 bytes in 24 msecs (HTTP/1.1 302) 5 headers in 218 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 1/3] 192.168.31.24 () {42 vars in 755 bytes} [Sat Dec  5 13:36:58 2020] GET /user/login => generated 2122 bytes in 593 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 2/4] 192.168.31.24 () {48 vars in 912 bytes} [Sat Dec  5 13:37:10 2020] POST /user/login => generated 0 bytes in 237 msecs (HTTP/1.1 302) 8 headers in 511 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 3/5] 192.168.31.24 () {42 vars in 794 bytes} [Sat Dec  5 13:37:10 2020] GET /index => generated 13624 bytes in 146 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 4/6] 192.168.31.24 () {42 vars in 789 bytes} [Sat Dec  5 13:37:13 2020] GET /cart/ => generated 11465 bytes in 56 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 5/7] 192.168.31.24 () {42 vars in 789 bytes} [Sat Dec  5 13:37:16 2020] GET /cart/ => generated 11465 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 3505|app: 0|req: 1/8] 192.168.31.24 () {42 vars in 803 bytes} [Sat Dec  5 13:37:20 2020] GET /user/order/1 => generated 5526 bytes in 742 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 6/9] 192.168.31.24 () {42 vars in 810 bytes} [Sat Dec  5 13:37:24 2020] GET /user/order/2 => generated 5599 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 3505|app: 0|req: 2/10] 192.168.31.24 () {42 vars in 810 bytes} [Sat Dec  5 13:37:26 2020] GET /user/order/3 => generated 5526 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 3504|app: 0|req: 7/11] 192.168.31.24 () {40 vars in 747 bytes} [Sat Dec  5 13:38:46 2020] GET /user/ => generated 5719 bytes in 157 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 13:52:43 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-126-generic #129~16.04.1-Ubuntu SMP Tue Nov 24 11:22:40 UTC 2020
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7640
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.31.24:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3504|app: 0|req: 8/12] 192.168.31.24 () {40 vars in 747 bytes} [Sat Dec  5 13:53:53 2020] GET /login => generated 79 bytes in 56 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 9/13] 192.168.31.24 () {40 vars in 757 bytes} [Sat Dec  5 13:54:04 2020] GET /user/login => generated 2122 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 3505|app: 0|req: 3/14] 192.168.31.252 () {40 vars in 848 bytes} [Sat Dec  5 13:54:28 2020] GET /index => generated 13624 bytes in 267 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3505|app: 0|req: 4/15] 192.168.31.252 () {42 vars in 896 bytes} [Sat Dec  5 13:54:33 2020] GET /goods/33 => generated 10213 bytes in 427 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 10/16] 192.168.31.252 () {42 vars in 899 bytes} [Sat Dec  5 13:54:36 2020] GET /goods/34 => generated 10219 bytes in 151 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 11/17] 192.168.31.252 () {42 vars in 893 bytes} [Sat Dec  5 13:54:42 2020] GET /cart/ => generated 11465 bytes in 293 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 12/18] 192.168.31.252 () {48 vars in 953 bytes} [Sat Dec  5 13:54:46 2020] POST /cart/add => generated 60 bytes in 71 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 13/19] 192.168.31.252 () {42 vars in 899 bytes} [Sat Dec  5 13:54:52 2020] GET /goods/35 => generated 10213 bytes in 119 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 14/20] 192.168.31.252 () {48 vars in 953 bytes} [Sat Dec  5 13:54:54 2020] POST /cart/add => generated 67 bytes in 111 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3505|app: 0|req: 5/21] 192.168.31.252 () {42 vars in 893 bytes} [Sat Dec  5 13:54:56 2020] GET /cart/ => generated 12204 bytes in 82 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 15/22] 192.168.31.252 () {48 vars in 956 bytes} [Sat Dec  5 13:55:00 2020] POST /cart/update => generated 67 bytes in 107 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3505|app: 0|req: 6/23] 192.168.31.252 () {48 vars in 956 bytes} [Sat Dec  5 13:55:00 2020] POST /cart/update => generated 67 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 16/24] 192.168.31.252 () {48 vars in 956 bytes} [Sat Dec  5 13:55:01 2020] POST /cart/update => generated 67 bytes in 37 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 17/25] 192.168.31.252 () {48 vars in 954 bytes} [Sat Dec  5 13:55:05 2020] POST /cart/delete => generated 67 bytes in 144 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3504|app: 0|req: 18/26] 192.168.31.252 () {42 vars in 895 bytes} [Sat Dec  5 14:05:30 2020] GET /login.html => generated 84 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 19/27] 192.168.31.252 () {42 vars in 872 bytes} [Sat Dec  5 14:05:38 2020] GET /index => generated 13624 bytes in 809 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 1)
+设置缓存
+[pid: 3504|app: 0|req: 20/28] 192.168.31.252 () {42 vars in 872 bytes} [Sat Dec  5 14:21:18 2020] GET /index => generated 13624 bytes in 2643 msecs (HTTP/1.1 200) 4 headers in 125 bytes (1 switches on core 0)
+[pid: 3504|app: 0|req: 21/29] 192.168.31.252 () {48 vars in 953 bytes} [Sat Dec  5 14:22:30 2020] POST /cart/add => generated 67 bytes in 56 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 14:30:54 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-126-generic #129~16.04.1-Ubuntu SMP Tue Nov 24 11:22:40 UTC 2020
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7640
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.31.24:8000).
+bind(): Address already in use [core/socket.c line 769]
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 14:33:02 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-126-generic #129~16.04.1-Ubuntu SMP Tue Nov 24 11:22:40 UTC 2020
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7640
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.31.24:8000 fd 3
+Python version: 3.5.2 (default, Oct  7 2020, 17:19:02)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0xedc050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xedc050 pid: 4653 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4653)
+spawned uWSGI worker 1 (pid: 4655, cores: 2)
+spawned uWSGI worker 2 (pid: 4656, cores: 2)
+spawned uWSGI worker 3 (pid: 4657, cores: 2)
+spawned uWSGI worker 4 (pid: 4658, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 14:34:47 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-126-generic #129~16.04.1-Ubuntu SMP Tue Nov 24 11:22:40 UTC 2020
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7640
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 192.168.31.24:8000 fd 3
+Python version: 3.5.2 (default, Oct  7 2020, 17:19:02)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0x1bdd050
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1bdd050 pid: 4688 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4688)
+spawned uWSGI worker 1 (pid: 4690, cores: 2)
+spawned uWSGI worker 2 (pid: 4691, cores: 2)
+spawned uWSGI worker 3 (pid: 4692, cores: 2)
+spawned uWSGI worker 4 (pid: 4693, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 4693|app: 0|req: 1/1] 192.168.31.252 () {40 vars in 777 bytes} [Sat Dec  5 14:35:11 2020] GET /favicon.ico => generated 85 bytes in 320 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 4693|app: 0|req: 2/2] 192.168.31.252 () {42 vars in 896 bytes} [Sat Dec  5 14:35:30 2020] GET /list/1/1 => generated 5236 bytes in 298 msecs (HTTP/1.1 200) 4 headers in 124 bytes (1 switches on core 1)
+[pid: 4690|app: 0|req: 1/3] 192.168.31.252 () {50 vars in 1083 bytes} [Sat Dec  5 14:35:38 2020] POST /order/place => generated 5358 bytes in 316 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 4690|app: 0|req: 2/4] 192.168.31.252 () {42 vars in 910 bytes} [Sat Dec  5 14:35:47 2020] GET /user/order/1 => generated 5656 bytes in 182 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 4690|app: 0|req: 3/5] 192.168.31.252 () {48 vars in 963 bytes} [Sat Dec  5 14:35:49 2020] POST /order/check => generated 49 bytes in 79587 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 4690|app: 0|req: 4/6] 192.168.31.252 () {42 vars in 911 bytes} [Sat Dec  5 14:37:22 2020] GET /user/order/1 => generated 5656 bytes in 161 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 14:42:00 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-126-generic #129~16.04.1-Ubuntu SMP Tue Nov 24 11:22:40 UTC 2020
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7640
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (192.168.31.24:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 4690|app: 0|req: 5/7] 192.168.31.252 () {44 vars in 942 bytes} [Sat Dec  5 14:42:17 2020] GET /user/order/2 => generated 5711 bytes in 195 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 4690|app: 0|req: 7/8] 192.168.31.252 () {48 vars in 959 bytes} [Sat Dec  5 14:42:26 2020] POST /order/pay => generated 789 bytes in 82 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 4690|app: 0|req: 8/9] 192.168.31.252 () {42 vars in 911 bytes} [Sat Dec  5 14:42:32 2020] GET /user/order/1 => generated 5656 bytes in 193 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 4690|app: 0|req: 9/10] 192.168.31.252 () {42 vars in 896 bytes} [Sat Dec  5 14:42:47 2020] GET /goods/21 => generated 10213 bytes in 155 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 4693|app: 0|req: 3/11] 192.168.31.252 () {42 vars in 893 bytes} [Sat Dec  5 14:42:50 2020] GET /cart/ => generated 12204 bytes in 102 msecs (HTTP/1.1 200) 5 headers in 279 bytes (1 switches on core 0)
+[pid: 4693|app: 0|req: 4/12] 192.168.31.252 () {50 vars in 1083 bytes} [Sat Dec  5 14:42:53 2020] POST /order/place => generated 5358 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 4690|app: 0|req: 10/13] 192.168.31.252 () {42 vars in 910 bytes} [Sat Dec  5 14:43:01 2020] GET /user/order/1 => generated 5656 bytes in 71 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 4691|app: 0|req: 1/14] 192.168.31.24 () {40 vars in 706 bytes} [Sat Dec  5 14:44:19 2020] GET /favicon.ico => generated 85 bytes in 3644 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 1)
+[pid: 4693|app: 0|req: 5/15] 192.168.31.24 () {48 vars in 913 bytes} [Sat Dec  5 14:44:30 2020] POST /cart/add => generated 67 bytes in 72 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 4693|app: 0|req: 6/16] 192.168.31.24 () {48 vars in 951 bytes} [Sat Dec  5 14:44:34 2020] POST /order/place => generated 5590 bytes in 83 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+[pid: 4693|app: 0|req: 7/17] 192.168.31.24 () {42 vars in 809 bytes} [Sat Dec  5 14:44:41 2020] GET /user/order/1 => generated 5594 bytes in 83 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 4693|app: 0|req: 8/18] 192.168.31.24 () {48 vars in 923 bytes} [Sat Dec  5 14:44:44 2020] POST /order/check => generated 49 bytes in 47793 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 4693|app: 0|req: 9/19] 192.168.31.24 () {42 vars in 844 bytes} [Sat Dec  5 14:45:39 2020] GET /order/comment/202012051444383 => generated 5249 bytes in 336 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 0)
+[pid: 4693|app: 0|req: 10/20] 192.168.31.24 () {42 vars in 827 bytes} [Sat Dec  5 14:45:59 2020] GET /user/order/1 => generated 5594 bytes in 133 msecs (HTTP/1.1 200) 5 headers in 278 bytes (1 switches on core 1)
+Gracefully killing worker 4 (pid: 4693)...
+Gracefully killing worker 2 (pid: 4691)...
+...brutally killing workers...
+Gracefully killing worker 3 (pid: 4692)...
+Gracefully killing worker 1 (pid: 4690)...
+worker 2 buried after 11 seconds
+worker 3 buried after 11 seconds
+worker 4 buried after 11 seconds
+Sat Dec  5 14:48:30 2020 - worker 1 (pid: 4690) is taking too much time to die...NO MERCY !!!
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/bigcat/Desktop/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (192.168.31.24:8000)
+running /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Dec  5 14:48:32 2020] ***
+compiled with version: 5.4.0 20160609 on 11 October 2020 07:17:18
+os: Linux-4.15.0-126-generic #129~16.04.1-Ubuntu SMP Tue Nov 24 11:22:40 UTC 2020
+nodename: bigcat-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/bigcat/Desktop/dailyfresh
+detected binary path: /home/bigcat/.virtualenvs/hometown/bin/uwsgi
+chdir() to /home/bigcat/Desktop/dailyfresh
+your processes number limit is 7640
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 192.168.31.24:8000 fd 3
+Python version: 3.5.2 (default, Oct  7 2020, 17:19:02)  [GCC 5.4.0 20160609]
+PEP 405 virtualenv detected: /home/bigcat/.virtualenvs/hometown
+Set PythonHome to /home/bigcat/.virtualenvs/hometown
+Python main interpreter initialized at 0x8f29f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x8f29f0 pid: 4688 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 4688)
+spawned uWSGI worker 1 (pid: 5365, cores: 2)
+spawned uWSGI worker 2 (pid: 5366, cores: 2)
+spawned uWSGI worker 3 (pid: 5367, cores: 2)
+spawned uWSGI worker 4 (pid: 5368, cores: 2)
